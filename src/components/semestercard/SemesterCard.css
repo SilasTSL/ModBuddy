@@ -1,0 +1,20 @@
+.HomeSemCardContainer {
+    width: 20%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 3vh;
+    border-radius: 10;
+}
+
+.modCard {
+    padding: 10;
+    list-style: none;
+    display: flex;
+}
+
+li:hover {
+    background-color: 'yellow';
+}

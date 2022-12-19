@@ -1,0 +1,7 @@
+.MainContainer {
+    display: flex;
+}
+
+.CardContainer {
+    flex-grow: 1;
+}

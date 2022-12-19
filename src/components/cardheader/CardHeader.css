@@ -1,0 +1,10 @@
+.TitleButtonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5;
+}
+
+.TitleButton {
+    background-color: rgb(255, 251, 245);
+}
