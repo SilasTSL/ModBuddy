@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    background-color: #F4CFB6;
+}
+
+.sidebarProfileContainer {
+    height: auto;
+    width: auto;
+}
+
+.sidebarProfilePicture {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.sidebarTopContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidebarElement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+}
+
+.sidebarElement:hover {
+    background-color: #eeaa7b;
+    color: white;
+}
+
+.sidebarElementIcon {
+    font-size: 1.4em;
+    margin-right: 20px;
+}
+
+.sidebarBottomElement:hover {
+    background-color: red;
+    color: white;
+}
