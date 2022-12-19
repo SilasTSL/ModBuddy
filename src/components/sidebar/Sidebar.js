@@ -6,10 +6,10 @@ import React from 'react'
 export const Sidebar = () => {
     return (
         <div className="sidebarContainer">
-            <div className="sidebarProfileContainer">
-                <img className="sidebarProfilePicture" src={require("../../images/profile-pic.jpeg")} />
-            </div>
             <div className="sidebarTopContainer">
+                <div className="sidebarProfileContainer">
+                    <img className="sidebarProfilePicture" src={require("../../images/profile-pic.jpeg")} />
+                </div>
                 <div className="sidebarElement">
                     <HomeOutlined className="sidebarElementIcon" />
                     <h2>Home</h2>
